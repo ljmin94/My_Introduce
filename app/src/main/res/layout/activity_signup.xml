@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="313dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/sing_up" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="이름"
+        android:textSize="25dp"
+        android:fontFamily="@font/bmgua_ttf" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:hint="이름을 입력하세요." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="아이디"
+        android:textSize="25dp"
+        android:fontFamily="@font/bmgua_ttf" />
+
+    <EditText
+        android:id="@+id/up_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:hint="아이디를 입력하세요" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="비밀번호"
+        android:textSize="25dp"
+        android:fontFamily="@font/bmgua_ttf" />
+
+    <EditText
+        android:id="@+id/up_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:hint="비밀번호를 입력하세요." />
+
+    <Button
+        android:id="@+id/upbtn"
+        android:background="@drawable/round_button"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="회원가입"
+        android:textSize="20dp"
+        android:fontFamily="@font/bmgua_ttf"/>
+
+</LinearLayout>
